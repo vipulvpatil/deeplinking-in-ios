@@ -30,7 +30,7 @@
 }
 
 - (IBAction)mainPageClicked:(id)sender {
-
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"dlapp://page/main"]];
 }
 
 - (void)didReceiveMemoryWarning

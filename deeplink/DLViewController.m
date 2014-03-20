@@ -21,13 +21,13 @@
 }
 
 - (IBAction)page1Clicked:(id)sender {
-
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"dlapp://page/page1"]];
 }
 - (IBAction)page2Clicked:(id)sender {
-
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"dlapp://page/page2"]];
 }
 - (IBAction)page3Clicked:(id)sender {
-
+  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"dlapp://page/page3"]];
 }
 
 - (void)didReceiveMemoryWarning

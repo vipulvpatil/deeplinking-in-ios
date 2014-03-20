@@ -8,6 +8,9 @@
 
 #import "DLAppDelegate.h"
 #import "DLViewController.h"
+#import "Page1ViewController.h"
+#import "Page2ViewController.h"
+#import "Page3ViewController.h"
 
 @implementation DLAppDelegate
 
@@ -15,8 +18,9 @@
 {
   // Override point for customization after application launch.
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-  DLViewController *mainViewController = [[DLViewController alloc] init];;
-  self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+  DLViewController *mainViewController = [[DLViewController alloc] init];
+  self.mainController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+  self.window.rootViewController = self.mainController;
   [self.window makeKeyAndVisible];
   return YES;
 }
@@ -46,6 +50,24 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+  if([[url host] isEqualToString:@"page"]){
+    if([[url path] isEqualToString:@"/main"]){
+      [self.mainController setViewControllers:@[[[DLViewController alloc] init]] animated:YES];
+    }
+    else if([[url path] isEqualToString:@"/page1"]){
+      [self.mainController pushViewController:[[Page1ViewController alloc] init] animated:YES];
+    }
+    else if([[url path] isEqualToString:@"/page2"]){
+      [self.mainController pushViewController:[[Page2ViewController alloc] init] animated:YES];
+    }
+    else if([[url path] isEqualToString:@"/page3"]){
+      [self.mainController pushViewController:[[Page3ViewController alloc] init] animated:YES];
+    }
+  }
+  return YES;
 }
 
 @end
