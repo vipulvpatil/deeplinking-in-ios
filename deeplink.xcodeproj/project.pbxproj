@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921AC10318DAAB3100BD0DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC10218DAAB3100BD0DF1 /* Foundation.framework */; };
+		921AC10518DAAB3100BD0DF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC10418DAAB3100BD0DF1 /* CoreGraphics.framework */; };
+		921AC10718DAAB3100BD0DF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC10618DAAB3100BD0DF1 /* UIKit.framework */; };
+		921AC10D18DAAB3100BD0DF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921AC10B18DAAB3100BD0DF1 /* InfoPlist.strings */; };
+		921AC10F18DAAB3100BD0DF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC10E18DAAB3100BD0DF1 /* main.m */; };
+		921AC11318DAAB3100BD0DF1 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC11218DAAB3100BD0DF1 /* DLAppDelegate.m */; };
+		921AC11918DAAB3100BD0DF1 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC11818DAAB3100BD0DF1 /* DLViewController.m */; };
+		921AC11B18DAAB3100BD0DF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921AC11A18DAAB3100BD0DF1 /* Images.xcassets */; };
+		921AC12218DAAB3200BD0DF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC12118DAAB3200BD0DF1 /* XCTest.framework */; };
+		921AC12318DAAB3200BD0DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC10218DAAB3100BD0DF1 /* Foundation.framework */; };
+		921AC12418DAAB3200BD0DF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921AC10618DAAB3100BD0DF1 /* UIKit.framework */; };
+		921AC12C18DAAB3200BD0DF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921AC12A18DAAB3200BD0DF1 /* InfoPlist.strings */; };
+		921AC12E18DAAB3200BD0DF1 /* deeplinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC12D18DAAB3200BD0DF1 /* deeplinkTests.m */; };
+		921AC13818DAABB400BD0DF1 /* DLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AC13718DAABB400BD0DF1 /* DLViewController.xib */; };
+		921AC13D18DAAC4900BD0DF1 /* Page1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC13B18DAAC4900BD0DF1 /* Page1ViewController.m */; };
+		921AC13E18DAAC4900BD0DF1 /* Page1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AC13C18DAAC4900BD0DF1 /* Page1ViewController.xib */; };
+		921AC14218DAAC5600BD0DF1 /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC14018DAAC5600BD0DF1 /* Page2ViewController.m */; };
+		921AC14318DAAC5600BD0DF1 /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AC14118DAAC5600BD0DF1 /* Page2ViewController.xib */; };
+		921AC14718DAAC6400BD0DF1 /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921AC14518DAAC6400BD0DF1 /* Page3ViewController.m */; };
+		921AC14818DAAC6400BD0DF1 /* Page3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 921AC14618DAAC6400BD0DF1 /* Page3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		921AC12518DAAB3200BD0DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921AC0F718DAAB3100BD0DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921AC0FE18DAAB3100BD0DF1;
+			remoteInfo = deeplink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921AC0FF18DAAB3100BD0DF1 /* deeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921AC10218DAAB3100BD0DF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		921AC10418DAAB3100BD0DF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		921AC10618DAAB3100BD0DF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		921AC10A18DAAB3100BD0DF1 /* deeplink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "deeplink-Info.plist"; sourceTree = "<group>"; };
+		921AC10C18DAAB3100BD0DF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		921AC10E18DAAB3100BD0DF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921AC11018DAAB3100BD0DF1 /* deeplink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "deeplink-Prefix.pch"; sourceTree = "<group>"; };
+		921AC11118DAAB3100BD0DF1 /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		921AC11218DAAB3100BD0DF1 /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		921AC11718DAAB3100BD0DF1 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		921AC11818DAAB3100BD0DF1 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		921AC11A18DAAB3100BD0DF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		921AC12018DAAB3200BD0DF1 /* deeplinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deeplinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921AC12118DAAB3200BD0DF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		921AC12918DAAB3200BD0DF1 /* deeplinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "deeplinkTests-Info.plist"; sourceTree = "<group>"; };
+		921AC12B18DAAB3200BD0DF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		921AC12D18DAAB3200BD0DF1 /* deeplinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deeplinkTests.m; sourceTree = "<group>"; };
+		921AC13718DAABB400BD0DF1 /* DLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLViewController.xib; sourceTree = "<group>"; };
+		921AC13A18DAAC4900BD0DF1 /* Page1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1ViewController.h; sourceTree = "<group>"; };
+		921AC13B18DAAC4900BD0DF1 /* Page1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1ViewController.m; sourceTree = "<group>"; };
+		921AC13C18DAAC4900BD0DF1 /* Page1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page1ViewController.xib; sourceTree = "<group>"; };
+		921AC13F18DAAC5600BD0DF1 /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		921AC14018DAAC5600BD0DF1 /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
+		921AC14118DAAC5600BD0DF1 /* Page2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page2ViewController.xib; sourceTree = "<group>"; };
+		921AC14418DAAC6400BD0DF1 /* Page3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3ViewController.h; sourceTree = "<group>"; };
+		921AC14518DAAC6400BD0DF1 /* Page3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3ViewController.m; sourceTree = "<group>"; };
+		921AC14618DAAC6400BD0DF1 /* Page3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921AC0FC18DAAB3100BD0DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC10518DAAB3100BD0DF1 /* CoreGraphics.framework in Frameworks */,
+				921AC10718DAAB3100BD0DF1 /* UIKit.framework in Frameworks */,
+				921AC10318DAAB3100BD0DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921AC11D18DAAB3200BD0DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC12218DAAB3200BD0DF1 /* XCTest.framework in Frameworks */,
+				921AC12418DAAB3200BD0DF1 /* UIKit.framework in Frameworks */,
+				921AC12318DAAB3200BD0DF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921AC0F618DAAB3100BD0DF1 = {
+			isa = PBXGroup;
+			children = (
+				921AC10818DAAB3100BD0DF1 /* deeplink */,
+				921AC12718DAAB3200BD0DF1 /* deeplinkTests */,
+				921AC10118DAAB3100BD0DF1 /* Frameworks */,
+				921AC10018DAAB3100BD0DF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921AC10018DAAB3100BD0DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921AC0FF18DAAB3100BD0DF1 /* deeplink.app */,
+				921AC12018DAAB3200BD0DF1 /* deeplinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921AC10118DAAB3100BD0DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921AC10218DAAB3100BD0DF1 /* Foundation.framework */,
+				921AC10418DAAB3100BD0DF1 /* CoreGraphics.framework */,
+				921AC10618DAAB3100BD0DF1 /* UIKit.framework */,
+				921AC12118DAAB3200BD0DF1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921AC10818DAAB3100BD0DF1 /* deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				921AC11118DAAB3100BD0DF1 /* DLAppDelegate.h */,
+				921AC11218DAAB3100BD0DF1 /* DLAppDelegate.m */,
+				921AC11718DAAB3100BD0DF1 /* DLViewController.h */,
+				921AC11818DAAB3100BD0DF1 /* DLViewController.m */,
+				921AC13718DAABB400BD0DF1 /* DLViewController.xib */,
+				921AC13918DAAC3700BD0DF1 /* Pages */,
+				921AC11A18DAAB3100BD0DF1 /* Images.xcassets */,
+				921AC10918DAAB3100BD0DF1 /* Supporting Files */,
+			);
+			path = deeplink;
+			sourceTree = "<group>";
+		};
+		921AC10918DAAB3100BD0DF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921AC10A18DAAB3100BD0DF1 /* deeplink-Info.plist */,
+				921AC10B18DAAB3100BD0DF1 /* InfoPlist.strings */,
+				921AC10E18DAAB3100BD0DF1 /* main.m */,
+				921AC11018DAAB3100BD0DF1 /* deeplink-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921AC12718DAAB3200BD0DF1 /* deeplinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				921AC12D18DAAB3200BD0DF1 /* deeplinkTests.m */,
+				921AC12818DAAB3200BD0DF1 /* Supporting Files */,
+			);
+			path = deeplinkTests;
+			sourceTree = "<group>";
+		};
+		921AC12818DAAB3200BD0DF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921AC12918DAAB3200BD0DF1 /* deeplinkTests-Info.plist */,
+				921AC12A18DAAB3200BD0DF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921AC13918DAAC3700BD0DF1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				921AC13A18DAAC4900BD0DF1 /* Page1ViewController.h */,
+				921AC13B18DAAC4900BD0DF1 /* Page1ViewController.m */,
+				921AC13C18DAAC4900BD0DF1 /* Page1ViewController.xib */,
+				921AC13F18DAAC5600BD0DF1 /* Page2ViewController.h */,
+				921AC14018DAAC5600BD0DF1 /* Page2ViewController.m */,
+				921AC14118DAAC5600BD0DF1 /* Page2ViewController.xib */,
+				921AC14418DAAC6400BD0DF1 /* Page3ViewController.h */,
+				921AC14518DAAC6400BD0DF1 /* Page3ViewController.m */,
+				921AC14618DAAC6400BD0DF1 /* Page3ViewController.xib */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921AC0FE18DAAB3100BD0DF1 /* deeplink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921AC13118DAAB3200BD0DF1 /* Build configuration list for PBXNativeTarget "deeplink" */;
+			buildPhases = (
+				921AC0FB18DAAB3100BD0DF1 /* Sources */,
+				921AC0FC18DAAB3100BD0DF1 /* Frameworks */,
+				921AC0FD18DAAB3100BD0DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deeplink;
+			productName = deeplink;
+			productReference = 921AC0FF18DAAB3100BD0DF1 /* deeplink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		921AC11F18DAAB3200BD0DF1 /* deeplinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 921AC13418DAAB3200BD0DF1 /* Build configuration list for PBXNativeTarget "deeplinkTests" */;
+			buildPhases = (
+				921AC11C18DAAB3200BD0DF1 /* Sources */,
+				921AC11D18DAAB3200BD0DF1 /* Frameworks */,
+				921AC11E18DAAB3200BD0DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				921AC12618DAAB3200BD0DF1 /* PBXTargetDependency */,
+			);
+			name = deeplinkTests;
+			productName = deeplinkTests;
+			productReference = 921AC12018DAAB3200BD0DF1 /* deeplinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921AC0F718DAAB3100BD0DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Originate;
+				TargetAttributes = {
+					921AC11F18DAAB3200BD0DF1 = {
+						TestTargetID = 921AC0FE18DAAB3100BD0DF1;
+					};
+				};
+			};
+			buildConfigurationList = 921AC0FA18DAAB3100BD0DF1 /* Build configuration list for PBXProject "deeplink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 921AC0F618DAAB3100BD0DF1;
+			productRefGroup = 921AC10018DAAB3100BD0DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921AC0FE18DAAB3100BD0DF1 /* deeplink */,
+				921AC11F18DAAB3200BD0DF1 /* deeplinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921AC0FD18DAAB3100BD0DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC14318DAAC5600BD0DF1 /* Page2ViewController.xib in Resources */,
+				921AC11B18DAAB3100BD0DF1 /* Images.xcassets in Resources */,
+				921AC13E18DAAC4900BD0DF1 /* Page1ViewController.xib in Resources */,
+				921AC14818DAAC6400BD0DF1 /* Page3ViewController.xib in Resources */,
+				921AC10D18DAAB3100BD0DF1 /* InfoPlist.strings in Resources */,
+				921AC13818DAABB400BD0DF1 /* DLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921AC11E18DAAB3200BD0DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC12C18DAAB3200BD0DF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921AC0FB18DAAB3100BD0DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC11318DAAB3100BD0DF1 /* DLAppDelegate.m in Sources */,
+				921AC14718DAAC6400BD0DF1 /* Page3ViewController.m in Sources */,
+				921AC13D18DAAC4900BD0DF1 /* Page1ViewController.m in Sources */,
+				921AC11918DAAB3100BD0DF1 /* DLViewController.m in Sources */,
+				921AC10F18DAAB3100BD0DF1 /* main.m in Sources */,
+				921AC14218DAAC5600BD0DF1 /* Page2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921AC11C18DAAB3200BD0DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921AC12E18DAAB3200BD0DF1 /* deeplinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		921AC12618DAAB3200BD0DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921AC0FE18DAAB3100BD0DF1 /* deeplink */;
+			targetProxy = 921AC12518DAAB3200BD0DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921AC10B18DAAB3100BD0DF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921AC10C18DAAB3100BD0DF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		921AC12A18DAAB3200BD0DF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921AC12B18DAAB3200BD0DF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		921AC12F18DAAB3200BD0DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		921AC13018DAAB3200BD0DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		921AC13218DAAB3200BD0DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deeplink/deeplink-Prefix.pch";
+				INFOPLIST_FILE = "deeplink/deeplink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		921AC13318DAAB3200BD0DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deeplink/deeplink-Prefix.pch";
+				INFOPLIST_FILE = "deeplink/deeplink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		921AC13518DAAB3200BD0DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/deeplink.app/deeplink";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deeplink/deeplink-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "deeplinkTests/deeplinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		921AC13618DAAB3200BD0DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/deeplink.app/deeplink";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deeplink/deeplink-Prefix.pch";
+				INFOPLIST_FILE = "deeplinkTests/deeplinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921AC0FA18DAAB3100BD0DF1 /* Build configuration list for PBXProject "deeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921AC12F18DAAB3200BD0DF1 /* Debug */,
+				921AC13018DAAB3200BD0DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		921AC13118DAAB3200BD0DF1 /* Build configuration list for PBXNativeTarget "deeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921AC13218DAAB3200BD0DF1 /* Debug */,
+				921AC13318DAAB3200BD0DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		921AC13418DAAB3200BD0DF1 /* Build configuration list for PBXNativeTarget "deeplinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				921AC13518DAAB3200BD0DF1 /* Debug */,
+				921AC13618DAAB3200BD0DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921AC0F718DAAB3100BD0DF1 /* Project object */;
+}
