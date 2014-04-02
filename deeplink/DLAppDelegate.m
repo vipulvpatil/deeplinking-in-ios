@@ -66,8 +66,11 @@
     else if([[url path] isEqualToString:@"/page3"]){
       [self.mainController pushViewController:[[Page3ViewController alloc] init] animated:YES];
     }
+    return YES;
   }
-  return YES;
+  else{
+    return NO;
+  }
 }
 
 @end
